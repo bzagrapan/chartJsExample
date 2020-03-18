@@ -33,6 +33,7 @@
 				borderColor: window.chartColors.red,
 				borderWidth: 1,
 				data: [
+				<!-- This will just generate random data(from utils.js) -->
 					randomScalingFactor(),
 					randomScalingFactor(),
 					randomScalingFactor(),
@@ -46,6 +47,7 @@
 				backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
 				borderColor: window.chartColors.blue,
 				data: [
+				<!-- This will just generate random data(from utils.js) -->
 					randomScalingFactor(),
 					randomScalingFactor(),
 					randomScalingFactor(),
@@ -64,8 +66,6 @@
 				type: 'horizontalBar',
 				data: horizontalBarChartData,
 				options: {
-					// Elements options apply to all of the options unless overridden in a dataset
-					// In this case, we are setting the border of each horizontal bar to be 2px wide
 					elements: {
 						rectangle: {
 							borderWidth: 2,
